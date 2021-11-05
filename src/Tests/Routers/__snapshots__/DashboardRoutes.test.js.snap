@@ -1,0 +1,593 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas al componente DashboardRoutes Debe mostrarse correctamente  1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+      onClick={[Function]}
+    >
+      Asociaciones
+    </a>
+    <div
+      className="navbar-collapse"
+    >
+      <div
+        className="navbar-nav"
+      >
+        <a
+          aria-current="page"
+          className="nav-item nav-link active"
+          href="/marvel"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Marvel
+        </a>
+        <a
+          aria-current={null}
+          className="nav-item nav-link"
+          href="/dc"
+          onClick={[Function]}
+        >
+          DC
+        </a>
+        <a
+          aria-current={null}
+          className="nav-item nav-link"
+          href="/search"
+          onClick={[Function]}
+        >
+          Buscar...
+        </a>
+      </div>
+    </div>
+    <div
+      className="navbar-collapse collapse w-100 order-3 dual-collapse2"
+    >
+      <ul
+        className="navbar-nav ml-auto"
+      >
+        <button
+          className="nav-item nav-link btn"
+          onClick={[Function]}
+        >
+          Logout
+        </button>
+        <span
+          className="nav-item nav-link text-info"
+        >
+          Miguel Perez
+        </span>
+      </ul>
+    </div>
+  </nav>,
+  <div
+    className="container mt-1"
+  >
+    <div>
+      <h1>
+        MarvelScreen
+      </h1>
+      <hr />
+      <div
+        className="row "
+      >
+        <div
+          className="card mb-3"
+          style={
+            Object {
+              "maxWidth": 350,
+            }
+          }
+        >
+          <div
+            className="row g-0"
+          >
+            <div
+              className="col-md-4"
+            >
+              <img
+                alt="marvel-spider"
+                className="img-fluid rounded-start"
+                src="./assets/marvel-spider.jpg"
+              />
+            </div>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-tittle"
+                >
+                  Spider Man
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  Amazing Fantasy #15
+                </p>
+                <p
+                  className="card-text"
+                >
+                  Peter Parker
+                </p>
+                <a
+                  href="/heroe/marvel-spider"
+                  onClick={[Function]}
+                >
+                  Leer mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card mb-3"
+          style={
+            Object {
+              "maxWidth": 350,
+            }
+          }
+        >
+          <div
+            className="row g-0"
+          >
+            <div
+              className="col-md-4"
+            >
+              <img
+                alt="marvel-captain"
+                className="img-fluid rounded-start"
+                src="./assets/marvel-captain.jpg"
+              />
+            </div>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-tittle"
+                >
+                  Captain America
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  Captain America Comics #1
+                </p>
+                <p
+                  className="card-text"
+                >
+                  Steve Rogers
+                </p>
+                <a
+                  href="/heroe/marvel-captain"
+                  onClick={[Function]}
+                >
+                  Leer mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card mb-3"
+          style={
+            Object {
+              "maxWidth": 350,
+            }
+          }
+        >
+          <div
+            className="row g-0"
+          >
+            <div
+              className="col-md-4"
+            >
+              <img
+                alt="marvel-iron"
+                className="img-fluid rounded-start"
+                src="./assets/marvel-iron.jpg"
+              />
+            </div>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-tittle"
+                >
+                  Iron Man
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  Tales of Suspense #39
+                </p>
+                <p
+                  className="card-text"
+                >
+                  Tony Stark
+                </p>
+                <a
+                  href="/heroe/marvel-iron"
+                  onClick={[Function]}
+                >
+                  Leer mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card mb-3"
+          style={
+            Object {
+              "maxWidth": 350,
+            }
+          }
+        >
+          <div
+            className="row g-0"
+          >
+            <div
+              className="col-md-4"
+            >
+              <img
+                alt="marvel-thor"
+                className="img-fluid rounded-start"
+                src="./assets/marvel-thor.jpg"
+              />
+            </div>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-tittle"
+                >
+                  Thor
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  Journey into Myster #83
+                </p>
+                <p
+                  className="card-text"
+                >
+                  Thor Odinson
+                </p>
+                <a
+                  href="/heroe/marvel-thor"
+                  onClick={[Function]}
+                >
+                  Leer mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card mb-3"
+          style={
+            Object {
+              "maxWidth": 350,
+            }
+          }
+        >
+          <div
+            className="row g-0"
+          >
+            <div
+              className="col-md-4"
+            >
+              <img
+                alt="marvel-hulk"
+                className="img-fluid rounded-start"
+                src="./assets/marvel-hulk.jpg"
+              />
+            </div>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-tittle"
+                >
+                  Hulk
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  The Incredible Hulk #1
+                </p>
+                <p
+                  className="card-text"
+                >
+                  Bruce Banner
+                </p>
+                <a
+                  href="/heroe/marvel-hulk"
+                  onClick={[Function]}
+                >
+                  Leer mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card mb-3"
+          style={
+            Object {
+              "maxWidth": 350,
+            }
+          }
+        >
+          <div
+            className="row g-0"
+          >
+            <div
+              className="col-md-4"
+            >
+              <img
+                alt="marvel-wolverine"
+                className="img-fluid rounded-start"
+                src="./assets/marvel-wolverine.jpg"
+              />
+            </div>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-tittle"
+                >
+                  Wolverine
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  The Incredible Hulk #180
+                </p>
+                <p
+                  className="card-text"
+                >
+                  James Howlett
+                </p>
+                <a
+                  href="/heroe/marvel-wolverine"
+                  onClick={[Function]}
+                >
+                  Leer mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card mb-3"
+          style={
+            Object {
+              "maxWidth": 350,
+            }
+          }
+        >
+          <div
+            className="row g-0"
+          >
+            <div
+              className="col-md-4"
+            >
+              <img
+                alt="marvel-daredevil"
+                className="img-fluid rounded-start"
+                src="./assets/marvel-daredevil.jpg"
+              />
+            </div>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-tittle"
+                >
+                  Daredevil
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  Daredevil #1
+                </p>
+                <p
+                  className="card-text"
+                >
+                  Matthew Michael Murdock
+                </p>
+                <a
+                  href="/heroe/marvel-daredevil"
+                  onClick={[Function]}
+                >
+                  Leer mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card mb-3"
+          style={
+            Object {
+              "maxWidth": 350,
+            }
+          }
+        >
+          <div
+            className="row g-0"
+          >
+            <div
+              className="col-md-4"
+            >
+              <img
+                alt="marvel-hawkeye"
+                className="img-fluid rounded-start"
+                src="./assets/marvel-hawkeye.jpg"
+              />
+            </div>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-tittle"
+                >
+                  Hawkeye
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  Tales of Suspense #57
+                </p>
+                <p
+                  className="card-text"
+                >
+                  Clinton Francis Barton
+                </p>
+                <a
+                  href="/heroe/marvel-hawkeye"
+                  onClick={[Function]}
+                >
+                  Leer mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card mb-3"
+          style={
+            Object {
+              "maxWidth": 350,
+            }
+          }
+        >
+          <div
+            className="row g-0"
+          >
+            <div
+              className="col-md-4"
+            >
+              <img
+                alt="marvel-cyclops"
+                className="img-fluid rounded-start"
+                src="./assets/marvel-cyclops.jpg"
+              />
+            </div>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-tittle"
+                >
+                  Cyclops
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  X-Men #1
+                </p>
+                <p
+                  className="card-text"
+                >
+                  Scott Summers
+                </p>
+                <a
+                  href="/heroe/marvel-cyclops"
+                  onClick={[Function]}
+                >
+                  Leer mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card mb-3"
+          style={
+            Object {
+              "maxWidth": 350,
+            }
+          }
+        >
+          <div
+            className="row g-0"
+          >
+            <div
+              className="col-md-4"
+            >
+              <img
+                alt="marvel-silver"
+                className="img-fluid rounded-start"
+                src="./assets/marvel-silver.jpg"
+              />
+            </div>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-tittle"
+                >
+                  Silver Surfer
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  The Fantastic Four #48
+                </p>
+                <p
+                  className="card-text"
+                >
+                  Norrin Radd
+                </p>
+                <a
+                  href="/heroe/marvel-silver"
+                  onClick={[Function]}
+                >
+                  Leer mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
