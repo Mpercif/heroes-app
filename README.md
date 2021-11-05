@@ -1,15 +1,14 @@
 # Heroes App
-## Esta App usa elementos mas avanzados de React
-
-
-
+## Esta App usa elementos distintos hooks de React
 
 Este componente usa:
 - Router
-    -   Rutas publicas
+    -   Rutas públicas
     -   Rutas privadas
 
 - Query Params
-    -   Mantiene la ultima URL si haces logout en cualquier punto de la APP
+    -   Mantiene la última URL si haces logout en cualquier punto de la APP
 
-Los componentes poseen test automaticos, los cuales se encuentran en la carpeta "Test".
+Los componentes poseen test automáticos, los cuales se encuentran en la carpeta "Test".
+
+Puedes ver la aplicación en funcionamiento haciendo [click aquí](https://mpercif.github.io/heroes-app/)
