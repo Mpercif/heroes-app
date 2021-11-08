@@ -17,7 +17,7 @@ export const HeroeCard = ({
                 <div className="col-md-4">
                     <img 
                         className="img-fluid rounded-start" 
-                        src={heroImages(`../${id}.jpg`).default} 
+                        src={heroImages(`../assets/${id}.jpg`).default} 
                         alt={id}    
                     />
                 </div>
