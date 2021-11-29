@@ -11,13 +11,14 @@ export const HeroeCard = ({
     characters
 }) => {
 
+
     return (
         <div className="card mb-3" style={ {maxWidth: 350} } >
             <div className="row g-0">
                 <div className="col-md-4">
                     <img 
                         className="img-fluid rounded-start" 
-                        src={heroImages(`../../assets/${id}.jpg`).default} 
+                        src={`../assets/${id}.jpg`} 
                         alt={id}    
                     />
                 </div>
