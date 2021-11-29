@@ -35,7 +35,7 @@ export const HeroeScreen = ({history}) => {
                 <div className="col-md-4">
                     <img 
                         className="img-fluid rounded-start animate__animated animate__fadeInLeft" 
-                        src={heroImages(`../${id}.jpg`).default} 
+                        src={heroImages(`../../${id}.jpg`).default} 
                         alt={id} 
                     />
                 </div>
